@@ -5,7 +5,6 @@ API Wrappers for API testing to be used as a base utility file
 inside a RUBY automation framework for RESTful based and/or simulated
 browser based testing
 
-# ********************** TODO ADD MORE DETAILS ********************** #
 Install
 ruby - https://www.ruby-lang.org/en/ 
 Bundler - https://rubygems.org/gems/bundler
@@ -15,8 +14,9 @@ In a terminal change directory into repo location `cd ./rb`
 `bundle install`
 
 Run command 
-For all test files, via rake: `rake test run_env=local parallel=true test_threads=5`
-For individual test file, via ruby: `ruby path/to/test_file.rb --run_env=local --parallel=true --test_threads=5`
+
+- For all test files, via rake: `rake test run_env=local parallel=true test_threads=5`
+- For individual test file, via ruby: `ruby path/to/test_file.rb --run_env=local --parallel=true --test_threads=5`
 
 ### LICENSE ###
 (The MIT License)

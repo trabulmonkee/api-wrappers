@@ -5,7 +5,6 @@ API Wrappers for API testing to be used as a base utility file
 inside a PYTHON automation framework for RESTful based and/or simulated
 browser based testing
 
-# ********************** TODO ADD MORE DETAILS ********************** #
 Reference for Docker Compose example for Flask: https://github.com/docker/awesome-compose/tree/master/flask
 
 Install
@@ -13,6 +12,7 @@ python - https://www.python.org/downloads/
 pip - https://pip.pypa.io/
 
 Install project dependencies
+
 In a terminal change directory into repo location `cd ./py`
 `pip install -r requirements.txt`
 
