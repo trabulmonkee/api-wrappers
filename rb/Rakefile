@@ -1,0 +1,9 @@
+require "minitest/test_task"
+
+Minitest::TestTask.create(:test) do |t|
+  # example usage: rake test run_env=local parallel=false test_threads=3
+  t.warning = false
+  t.test_globs = ["routes/**/test_*.rb"]
+end
+
+task :default => :test

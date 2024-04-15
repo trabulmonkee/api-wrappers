@@ -1,0 +1,19 @@
+# -*- coding: utf-8 -*-
+
+#################################################
+# API-WRAPPERS requirements
+#
+# :Author:
+#   M. Millgate
+#
+# :Created:
+#   March 2020
+#
+#################################################
+pytest==7.4.3  # python test runner
+pytest-html==4.1.1  # python test runner results report generator
+pytest-xdist==3.5.0  # python test runner parallelization
+pytest-randomly==3.15.0 # python test runner random order execution
+pytest-watcher==0.3.4 # python test runner watcher of changes
+requests==2.31.0 # python restful api interface
+Flask==3.0.0 # python server
